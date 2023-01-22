@@ -1,11 +1,3 @@
-$('.package-carousel').slick({
-  dots: false,
-  infinite: true,
-  speed: 300,
-  slidesToShow: 1,
-  centerMode: true,
-  variableWidth: true
-});
 const elBurger = document.querySelector(".header__logo-burger");
 const elBurgerTab = document.querySelector(".header__burger")
 const elClose = document.querySelector(".header__close");
@@ -36,6 +28,44 @@ elModalClose.addEventListener("click" , ()=>{
     elModal.classList.remove("modal-js");
     elOverlay.classList.remove("overlay-js");
 });
+
+// Slick start
+
+
+$('.creation__list').slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    variableWidth: true,
+    responsive: [
+        {
+            breakpoint: 1000,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+            }
+        },
+        {
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+            }
+        }
+    ]
+});
+
+$('.package-carousel').slick({
+    dots: false,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 1,
+    centerMode: true,
+    variableWidth: true
+  });
+
+//   Creation slick start
+
+
 
 
 let offset = 0;
