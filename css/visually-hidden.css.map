@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../scss/blocks/visually-hidden.scss"],"names":[],"mappings":"AAAA;EACI;EACA;EACA;EACA;EACA;EACA;EACA","file":"visually-hidden.css"}
+{"version":3,"sources":["../scss/blocks/visually-hidden.scss","visually-hidden.css"],"names":[],"mappings":"AAAA;EACI,mBAAA;EACA,6BAAA;UAAA,qBAAA;EACA,WAAA;EACA,gBAAA;EACA,kBAAA;EACA,mBAAA;EACA,UAAA;ACCJ","file":"visually-hidden.css"}
