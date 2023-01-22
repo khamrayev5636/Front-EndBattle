@@ -7,8 +7,7 @@
   background-size: contain;
   background-position: calc(-200px);
 }
-.popular-products {
-}
+
 .caption {
   margin-top: 0;
   margin-bottom: 60px;
@@ -236,7 +235,7 @@
   }
 }
 
-@include mobile-first(2220px) {
+@include mobile-first(2000px) {
   .products-section {
     background-position: calc(-390px);
   }

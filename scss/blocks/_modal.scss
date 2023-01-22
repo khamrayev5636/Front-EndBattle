@@ -137,7 +137,7 @@
     transform: translateY(0);
 }
 
-@include mobile-first(2220px){
+@include mobile-first(2000px){
 
     .modal {
         top: 220px;

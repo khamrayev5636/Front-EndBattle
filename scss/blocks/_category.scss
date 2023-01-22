@@ -241,7 +241,7 @@
         max-width: 589px;
     }
 }
-@include mobile-first(2220px){
+@include mobile-first(2000px){
     .category{
         padding-top: 267px;
     }
@@ -256,7 +256,7 @@
     }
     .category__wrapper{
         align-items: flex-start;
-        margin-right: 25px;
+        margin-right: 20px;
     }
     .category__list{
         display: flex;
