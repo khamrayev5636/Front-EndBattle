@@ -69,6 +69,7 @@
     border: none;
     margin-bottom: 35px;
     padding: 41px 0;
+    padding-left: 128px;
     outline: none;
     border-radius: 30px;
     background-color: rgba(0, 0, 0, 0.1);
@@ -78,7 +79,6 @@
     font-weight: 400;
     font-size: 24px;
     line-height: 33px;
-    padding-left: 128px;
     color: #000;
 }
 
@@ -119,6 +119,7 @@
     color: #fff;
     border-radius: 30px;
     border: none;
+    cursor: pointer;
 }
 
 .overlay {
