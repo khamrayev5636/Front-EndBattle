@@ -1,3 +1,11 @@
+$('.package-carousel').slick({
+  dots: false,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 1,
+  centerMode: true,
+  variableWidth: true
+});
 const elBurger = document.querySelector(".header__logo-burger");
 const elBurgerTab = document.querySelector(".header__burger")
 const elClose = document.querySelector(".header__close");
@@ -70,4 +78,3 @@ document.querySelector('.products__slider-line-van-btn1').addEventListener('clic
     }
     sliderCursor.style.right = -scrollOffset + '%';
 });
-
