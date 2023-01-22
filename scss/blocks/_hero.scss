@@ -33,7 +33,12 @@
     background-color: #70908b;
     color: #fdfbf8;
     border-radius: 10px;
+    transition: 0.5s;
     text-decoration: none;
+}
+
+.header__button:hover {
+    background-color:#07484a;
 }
 
 
@@ -76,7 +81,7 @@
 }
 
 @include mobile-first (2000px) {
-
+    
     .hero__wrapper {
         max-width: 668px;
         padding-top: 272px;
