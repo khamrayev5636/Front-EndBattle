@@ -1,3 +1,21 @@
+const elBurger = document.querySelector(".header__logo-burger");
+const elBurgerTab = document.querySelector(".header__burger")
+const elClose = document.querySelector(".header__close");
+const elNav = document.querySelector(".header__nav");
+
+elBurger.addEventListener("click" , ()=> {
+    elNav.classList.add("header__nav-js")
+});
+
+elBurgerTab.addEventListener("click" , ()=> {
+    elNav.classList.add("header__nav-js")
+});
+
+elClose.addEventListener("click" , ()=> {
+    elNav.classList.remove("header__nav-js")
+});
+
+
 let offset = 0;
 let scrollOffset = 0;
 const sliderLine = document.querySelector('.products__slider-list');
@@ -39,19 +57,3 @@ document.querySelector('.products__slider-line-van-btn1').addEventListener('clic
   sliderCursor.style.right = -scrollOffset + '%';
 });
 
-const elBurger = document.querySelector(".header__logo-burger");
-const elBurgerTab = document.querySelector(".header__burger")
-const elClose = document.querySelector(".header__close");
-const elNav = document.querySelector(".header__nav");
-
-elBurger.addEventListener("click" , ()=> {
-    elNav.classList.add("header__nav-js")
-});
-
-elBurgerTab.addEventListener("click" , ()=> {
-    elNav.classList.add("header__nav-js")
-});
-
-elClose.addEventListener("click" , ()=> {
-    elNav.classList.remove("header__nav-js")
-});
