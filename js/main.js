@@ -1,0 +1,41 @@
+let offset = 0;
+let scrollOffset = 0;
+const sliderLine = document.querySelector('.products__slider-list');
+const sliderCursor = document.querySelector('.products__slider-line-nav-cursor');
+
+// work slider
+
+document.querySelector('.products__slider-line-van-btn2').addEventListener('click', function () {
+  offset = offset + 460;
+  if (offset > 2300) {
+    offset = 0;
+  }
+  sliderLine.style.left = -offset + 'px';
+});
+
+document.querySelector('.products__slider-line-van-btn1').addEventListener('click', function () {
+  offset = offset - 460;
+  if (offset < 0) {
+    offset = 2300;
+  }
+  sliderLine.style.left = -offset + 'px';
+});
+
+// work scroll
+
+document.querySelector('.products__slider-line-van-btn2').addEventListener('click', function () {
+  scrollOffset = scrollOffset + 16.66;
+  if (scrollOffset > 83.3) {
+    scrollOffset = 0;
+  }
+  sliderCursor.style.right = -scrollOffset + '%';
+});
+
+document.querySelector('.products__slider-line-van-btn1').addEventListener('click', function () {
+  scrollOffset = scrollOffset - 16.66;
+  if (scrollOffset < 0) {
+    scrollOffset = 83.3;
+  }
+  sliderCursor.style.right = -scrollOffset + '%';
+});
+// работа
