@@ -4,9 +4,8 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    height: 738px;
     border-radius: 0px 0px 50px 50px;
-    overflow: hidden;
+    padding-bottom: 206px;
 }
 
 .header {
@@ -125,7 +124,7 @@
 @include mobile-first(808px){
     
     .wrapper {
-        height: 661px;
+        padding-bottom: 177px;
     }
     
     .container {
@@ -206,17 +205,13 @@
 }
 
 
-@include mobile-first (1200px) {
-    
-    .wrapper {
-        height: 1301px;
-    }
-    
-}
 
 @include mobile-first (2220px) {
     
-    
+    .wrapper {
+        padding-bottom: 354px;
+    }
+
     .header__nav {
         position: static;
         width: max-content;
